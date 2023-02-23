@@ -625,3 +625,10 @@ Usage: docker service update [options] <service name>
 
 Example: docker service update --replicas=6 site
 
+## Docker and Continuous Deployment
+Docker and Continuous Deployment | Summary and Commands
+
+We just explored how to set up development operations workflows with docker, github actions, and amazon ECR. This is only the beginning of a continuous deployment workflow. In the industry, larger engineering organizations implement multiple workflows to power their continuous deployment practices. These may be testing steps, to determine whether or not an image should even be deployed. Or they could be separate workflows to publish to additional registries, or testing/production environments for the product.
+
+We’ve reached the end of the course. In the next section, you’ll find an optional reference section where you can deepen your knowledge of some topics that appeared in the course, such as JavaScript. Finally, check out the congratulatory material in the final section of the course!
+
